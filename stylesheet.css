@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    width: 150px;
+    height: 70px;
+    margin-left: 6rem;
+}
+.serch-icon{
+    width: 21px;
+    height: 21px;
+    margin-right: 1rem;
+}
+.globe-icon{
+    width: 25px;
+    height: 25px;
+    margin-right :5rem; 
+}
+.icon-cont{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    margin-left: 1rem;
+}
+.dropdown:hover dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+.dropdown-menu{
+    height: 20rem;
+    width: 79.9rem;
+}
+.bg-cmpny:hover{
+    background-color: #F40000;
+
+}
+.bg-brand:hover{
+    background-color: #FF560E;
+}
+.bg-sus:hover{
+    background-color: #6ACE7F;
+}
+.bg-soc-imp:hover{
+    background-color: #6AC9CE;
+}
+.bg-crr:hover{
+    background-color: #D7B85B;
+}
+.bg-nws:hover{
+    background-color: #F79900;
+}
+.bg-inv:hover{
+    background-color: #B59E74;
+}
+.cmpny-contianer{
+    height: 25rem;
+    width: 79.9rem;
+    background-color: rgb(255, 255, 255);
+}
+.cmpny-fst-cont{
+    width: 15rem;
+    height: 20rem;
+}
+.h1{
+    cursor: pointer;
+}
+.Company-fst-txt3{
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F40000;
+}
+.lm-btn{
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+}
+.cmpny-scnd-cont{
+    width: 20rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cmpny-thrd-cont{
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.link-snd{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+    cursor: pointer;
+}
+.bg-brand-contianer{
+    padding-left: 90px;
+    height: 29rem;
+    width: 79.9rem;
+    background-color: rgb(255, 255, 255);
+}
+.bg-brand-fst-cont{
+    width: 15rem;
+    height: 20rem;
+}
+.h1{
+    cursor: pointer;
+}
+.bg-brand-fst-txt2{
+    height: 17rem;
+    width: 13rem;
+}
+.bg-brand-fst-txt2{
+    height: 3rem;
+    width: 15rem;
+}
+.bg-brand-fst-txt3{
+    margin-top: 13rem;
+    height: 3rem;
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF560E;
+}
+.lm-btn{
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+}
+.bg-brand-scnd-cont{
+    margin-right: 10px;
+    width: 10rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bg-brand-thrd-cont{
+    margin-right: 10px;
+    width: 10rem;
+    height: 16.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sus-contianer{
+    height: 23rem;
+    width: 79.9rem;
+    background-color: rgb(255, 255, 255);
+}
+.sus-fst-cont{
+    width: 15rem;
+    height: 20rem;
+}
+.h1-sus{
+    cursor: pointer;
+    
+}
+.sus-fst-cont{
+    margin-left: 2rem;
+}
+.sus-fst-txt3{
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ACE7F;
+}
+.soc-imp-contianer{
+    height: 20rem;
+    width: 79.9rem;
+    background-color: rgb(255, 255, 255);
+}
+.soc-imp-fst-cont{
+    width: 15rem;
+    height: 20rem;
+}
+.h1-soc-imp{
+    cursor: pointer;
+    
+}
+.soc-imp-fst-txt3{
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6AC9CE;
+}
+.bg-crr-contianer{
+    height: 20rem;
+    width: 79.9rem;
+    background-color: rgb(255, 255, 255);
+}
+.bg-crr-fst-cont{
+    width: 15rem;
+    height: 20rem;
+}
+.bg-crr-imp{
+    cursor: pointer;
+    
+}
+.bg-crr-fst-txt3{
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D7B85B;
+}
+.bg-nws-contianer{
+    height: 20rem;
+    width: 79.9rem;
+    background-color: rgb(255, 255, 255);
+}
+.bg-nws-fst-cont{
+    width: 15rem;
+    height: 20rem;
+}
+.bg-nws-imp{
+    cursor: pointer;
+    
+}
+.bg-nws-fst-txt3{
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F79900;
+}
+.category{
+    display: flex;
+}
+.category .box{
+    text-align:center;
+    height: 80vh;
+    width: 50%;
+    /* margin: 10px; */
+    background-size: cover;
+    padding-top: 20px;
+    line-height: 2.5rem;
+
+
+}
+#box1{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/responsible-business/sustainable-business/www-design-masthead-1440x480.jpg");
+    background-position: center;
+}
+#box2{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/desktop/woman-fills-water-jug.png");
+    background-position: center;
+}
+.category h1{
+    /* font-size: 1.375rem !important;
+    color: white; */
+    text-shadow: 2px 2px #4d4c4c;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+.category p{
+    position: relative;
+    /* font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-style: normal;
+    line-height: 1.3125rem;
+    font-size: 1rem;
+    text-align: left; */
+    text-shadow: 1px 1px #4a4a4a;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.row{
+    height: 1500px;
+    text-align: center;
+  
+}
+.first{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/responsible-business/sustainable-business/www-design-masthead-1440x480.jpg");
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.second{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/desktop/woman-fills-water-jug.png");
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.third{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/coca-cola-racial-equality-1440x848.png");
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.forth{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/coca-cola-portfolio-homepage-1440x848.png");
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.fifth{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/landing-pages/sustainable-agriculture-woman-farmer-horizontal.jpg");
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.sixth{
+    background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/home-position-6.jpg");
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.row h1,p{
+    /* font-family: TCCC-UnityText-Regular, TCCC-UnityText, sans-serif; */
+    line-height: 30px;
+    margin-top: 300px;
+   
+    color: #ffffff;
+    letter-spacing: normal;
+}
+
+.seven{
+    background-color: #4a4a4a;
+    fill: #f2f2f2;
+    padding: 0px;
+    height: 200px;
+    
+}
+.seven ul img{
+    max-width: 11rem;
+    margin-left: 0px;
+    margin-top: 37px;
+
+}
+.seven ul {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    margin-top: 10px;
+
+}
+.seven li{
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    justify-content:space-between 10px;
+    padding: 30px;
+    margin-top: 35px;
+
+}
+.hr{
+    padding: 1px;
+}
+
